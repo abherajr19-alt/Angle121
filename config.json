@@ -1,0 +1,39 @@
+{
+  "name": "Nova",
+  "version": "1.0.0",
+  "adb_host": "localhost:5555",
+  "auto_reply": true,
+  "voice_enabled": true,
+  "ai_backend": "huggingchat",
+  "sambanova_api_key": "",
+  "learning_rate": 0.1,
+  "backup_interval": 300,
+  "screen_monitoring": true,
+  "notification_check_interval": 2,
+  "max_memory_entries": 1000,
+  "personality": "friendly_secretary",
+  "language": "hinglish",
+  "auto_start": true,
+  "screen_lock_pin": "",
+  "allowed_apps": [
+    "com.whatsapp",
+    "com.instagram.android",
+    "com.google.android.keep",
+    "com.android.chrome"
+  ],
+  "blocked_apps": [],
+  "emergency_contacts": [],
+  "working_hours": {
+    "start": "09:00",
+    "end": "18:00"
+  },
+  "features": {
+    "notification_monitor": true,
+    "auto_reply": true,
+    "screen_control": true,
+    "voice_commands": true,
+    "coding_assistance": true,
+    "self_evolution": true,
+    "memory_backup": true
+  }
+}
